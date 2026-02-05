@@ -275,7 +275,7 @@ install_deps() {
             # shellcheck disable=SC2086
             yum -e 0 -y install ${pkgs}
             ;;
-          fedora)
+          fedora|openEuler)
             # shellcheck disable=SC2086
             dnf -e 0 -y install ${pkgs}
             ;;
@@ -305,7 +305,7 @@ remove_pkgs() {
         # shellcheck disable=SC2086
         yum -y remove ${pkgs}
         ;;
-      fedora)
+      fedora|openEuler)
         # shellcheck disable=SC2086
         dnf -y remove ${pkgs}
         ;;
