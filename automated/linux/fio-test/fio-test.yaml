@@ -12,6 +12,7 @@ metadata:
         - centos
         - fedora
         - openembedded
+        - openEuler
     devices:
         - mustang
         - overdrive
@@ -21,6 +22,7 @@ metadata:
         - thunderX
         - hi6220-hikey
         - apq8016-sbc
+        - sg2042
     scope:
         - performance
     environment:
